@@ -7,6 +7,10 @@ Date: Tuesday, January 30, 2024
 
 Quiz 1 will cover all material up to and including Thursday, January 25, 2024. As we progress, this page will be updated with references to the specific material covered.
 
+:::{warning}
+References to quiz material are subject to change until Thursday, January 25, 2024.
+:::
+
 ### Readings
 
 At least 80% of the quiz points will be awarded for questions derived from the following reading materials:
