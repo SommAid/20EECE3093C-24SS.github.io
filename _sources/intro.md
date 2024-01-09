@@ -16,11 +16,11 @@ Software engineering is frequently described as a multi-layered technology in wh
 :alt: layered technology
 :width: 400px
 :align: center
-``` <br>
+```
 
 **Quality Focus:** This aspect defines the continuous process improvement principles in software engineering. It ensures integrity by safeguarding software so that only authorized individuals can access data, preventing outsider access. Additionally, it emphasizes maintainability and usability.
 
-**Process:** Serving as the foundation or base layer of software engineering, the process is crucial in binding all layers together. This enables the on-time or timely development of software. The process establishes a framework essential for the effective delivery of software engineering technology, covering all necessary activities, actions, and tasks for software development.
+**Process:** Serving as the foundation or base layer of software engineering, the process is crucial in binding all layers together. This enables the on-time or timely development of software. The process establishes the framework essential for the effective delivery of software engineering technology, covering all necessary activities, actions, and tasks for software development.
 
 **Method:** In software development, the method provides answers to all "how-to" questions. It encompasses information on various tasks, including communication, requirement analysis, design modeling, program construction, testing, and support.
 
