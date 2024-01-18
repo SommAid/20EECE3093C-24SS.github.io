@@ -33,3 +33,5 @@ For an asynchronous learning opportunity, please watch the [Learning Git and Git
 * [Creating an account on GitHub](https://docs.github.com/en/get-started/quickstart/creating-an-account-on-github)
 * [git Documentation](https://git-scm.com/doc)
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+<br>
