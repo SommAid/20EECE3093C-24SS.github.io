@@ -67,7 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Part 1: Task Selection" href="part_1_selection.html" />
-    <link rel="prev" title="Lab 1 - Getting Started with GitHub" href="../lab_assignments/lab_1.html" />
+    <link rel="prev" title="Lab 2 - GitHub Project Management" href="../lab_assignments/lab_2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -189,6 +189,7 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lab_assignments/lab_assignments.html">Lab Assignments</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../lab_assignments/lab_1.html">Lab 1 - Getting Started with GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lab_assignments/lab_2.html">Lab 2 - GitHub Project Management</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Course Project</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -200,6 +201,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">FAQs</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../faq/oreilly/oreilly_access.html">How do I access O'Reilly books?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/github_student_benefits.html">How do I get support for GitHub student benefits?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Books</span></p>
 <ul class="nav bd-sidenav">
@@ -380,7 +382,6 @@ document.write(`
 <p>For the course project, you are tasked with making a significant contribution to an open-source project on GitHub. Your primary objective involves developing and submitting a substantial modification, be it an enhancement, a bug fix, or new features. Ensure that these contributions are meticulously crafted to enhance their chances of being accepted by the project’s maintainers.</p>
 <p>Your responsibilities include choosing an open-source project, pinpointing a specific change to implement, understanding the contribution guidelines, actively participating in the project, documenting your insights, and reflecting on the experience.</p>
 <p>While you have considerable freedom in choosing the project and type of contribution (subject to certain requirements and recommendations), your selection should be based on your ability to fulfill all the project’s requirements. Avoid choosing a project or task that may hinder your ability to meet any of these requirements.</p>
-<p>In projects like this, it’s common for students to feel worried or stressed as the due date approaches; this often stems from realizing that their project or contribution, although not against the rules, could make it challenging to provide all the necessary evidence to earn full points for the course project.  To prevent this, it’s advisable to initially work in a way that covers all requirements broadly. Once you’re confident that all requirements are met, you can then focus on more in-depth aspects of the project.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Successfully completing this project can serve as an excellent discussion topic in technical interviews, particularly with top-tier companies. Therefore, consider choosing a slightly more ambitious task to enhance your ability to “show off” later. Don’t focus solely on the task’s complexity; some employers may place more importance on factors such as the size of the codebase, the number of active developers, the rigor of the development process, the extent of testing and quality assurance, the use of analysis tools, adherence to the required project design or architecture, among others.</p>
@@ -409,7 +410,7 @@ Likewise, you can choose a large task and break it down into smaller parts, stop
 </section>
 <section id="recommendations">
 <h2>Recommendations<a class="headerlink" href="#recommendations" title="Permalink to this heading">#</a></h2>
-<p>Here are some strongly advised recommendations that you should consider following closely. Although you have the option to overlook these suggestions, doing so could likely result in a lower grade due to insufficient evidence for meeting all reporting requirements.</p>
+<p>Although you have the option to overlook the following recommendation, doing so could result in a lower grade due to insufficient evidence for meeting all reporting requirements.</p>
 <ol class="arabic simple">
 <li><p>Opt for an active project with numerous contributors. You can gauge activity levels using GitHub’s statistics for comparison across different projects.</p></li>
 <li><p>Avoid tasks limited to implementing an algorithm or data structure. Such tasks may not provide ample evidence of your proficiency in requirements elicitation, code comprehension, and dependent coding within an extensive codebase not authored by you, as the requirements for algorithms are often too straightforward.</p></li>
@@ -418,10 +419,11 @@ Likewise, you can choose a large task and break it down into smaller parts, stop
 <li><p>Be aware of the possibility that another contributor might complete a chosen task before you. While some projects allow you to reserve issues, not all do. Consider this risk when selecting tasks.</p></li>
 <li><p>Remember, your contribution doesn’t need to be accepted for you to receive full credit. Grading will be based on a specific rubric, focusing on various aspects of your work and not solely on acceptance by the project.</p></li>
 <li><p>Consider taking actions beyond the project’s strict requirements to enhance your report. For instance, communicating with a project maintainer about non-functional requirements for your patch can provide opportunities to demonstrate your understanding of quality properties and requirements elicitation.</p></li>
-<li><p>Review at least two of the example reports provided at the bottom of this page. They can help clarify the extent of evidence needed for full credit, as course staff may not be able to answer such specific questions beyond the provided rubrics.</p></li>
-<li><p>Reflect on the typical scope of pull requests and the course’s emphasis on code reading versus writing. For instance, in maintenance tasks, understanding where and how to make changes often proves more challenging than the change itself, which might be minor.</p></li>
 </ol>
-<p><a class="reference external" href="https://opensource.guide/how-to-contribute/"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is adapted from the CS course taught by Dr. Wes Weimer and Dr. Xinyu Wang at the University of Michigan. You can find the original project <a class="reference external" href="https://web.eecs.umich.edu/~weimerw/2022-481F/hw6.html">here</a>. To gain an understanding of what a completed project looks like, please review a few example reports from University of Michigan students, available at the bottom of the <a class="reference external" href="https://web.eecs.umich.edu/~weimerw/2022-481F/hw6.html">page</a>.</p>
+</div>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -458,12 +460,12 @@ Likewise, you can choose a large task and break it down into smaller parts, stop
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../lab_assignments/lab_1.html"
+       href="../lab_assignments/lab_2.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Lab 1 - Getting Started with GitHub</p>
+        <p class="prev-next-title">Lab 2 - GitHub Project Management</p>
       </div>
     </a>
     <a class="right-next"

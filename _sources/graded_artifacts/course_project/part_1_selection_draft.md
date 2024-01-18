@@ -1,7 +1,5 @@
 # Part 1: Task Selection
 
-The first thing you must turn in is an initial report on the project and task(s) you select, including a proposed schedule (with effort estimates).
-
 Start by researching candidate open source projects. Make an informed decision about which project you will contribute to. As examples, consider: the type of software, the project age, the number of active contributors, the amount of activity and communication among contributors, the number and types of feature requests/bug reports you might address, the tools and mechanisms the project uses to communicate and collaborate, the dominant programming language/paradigm/framework, as well as the larger context in which the software operates. Communication with the candidate open source projects is encouraged.
 
 Your goal is to to make a principled, informed decision as to which project and task(s) you will tackle. The type of information you collect can vary depending on how you make this decision. However, you should justify that decision by grounding it in facts about the projects and tasks you consider.

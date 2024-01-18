@@ -6,11 +6,10 @@ Your responsibilities include choosing an open-source project, pinpointing a spe
 
 While you have considerable freedom in choosing the project and type of contribution (subject to certain requirements and recommendations), your selection should be based on your ability to fulfill all the project's requirements. Avoid choosing a project or task that may hinder your ability to meet any of these requirements.
 
-In projects like this, it's common for students to feel worried or stressed as the due date approaches; this often stems from realizing that their project or contribution, although not against the rules, could make it challenging to provide all the necessary evidence to earn full points for the course project.  To prevent this, it's advisable to initially work in a way that covers all requirements broadly. Once you're confident that all requirements are met, you can then focus on more in-depth aspects of the project.
-
 :::{tip}
 Successfully completing this project can serve as an excellent discussion topic in technical interviews, particularly with top-tier companies. Therefore, consider choosing a slightly more ambitious task to enhance your ability to "show off" later. Don't focus solely on the task's complexity; some employers may place more importance on factors such as the size of the codebase, the number of active developers, the rigor of the development process, the extent of testing and quality assurance, the use of analysis tools, adherence to the required project design or architecture, among others.
 :::
+
 
 ## Requirements
 
@@ -35,7 +34,7 @@ Here are the revised project requirements with improved grammar:
 
 ## Recommendations
 
-Here are some strongly advised recommendations that you should consider following closely. Although you have the option to overlook these suggestions, doing so could likely result in a lower grade due to insufficient evidence for meeting all reporting requirements.
+Although you have the option to overlook the following recommendation, doing so could result in a lower grade due to insufficient evidence for meeting all reporting requirements.
 
 1. Opt for an active project with numerous contributors. You can gauge activity levels using GitHub's statistics for comparison across different projects.
 2. Avoid tasks limited to implementing an algorithm or data structure. Such tasks may not provide ample evidence of your proficiency in requirements elicitation, code comprehension, and dependent coding within an extensive codebase not authored by you, as the requirements for algorithms are often too straightforward.
@@ -44,8 +43,7 @@ Here are some strongly advised recommendations that you should consider followin
 5. Be aware of the possibility that another contributor might complete a chosen task before you. While some projects allow you to reserve issues, not all do. Consider this risk when selecting tasks.
 6. Remember, your contribution doesn't need to be accepted for you to receive full credit. Grading will be based on a specific rubric, focusing on various aspects of your work and not solely on acceptance by the project.
 7. Consider taking actions beyond the project's strict requirements to enhance your report. For instance, communicating with a project maintainer about non-functional requirements for your patch can provide opportunities to demonstrate your understanding of quality properties and requirements elicitation.
-8. Review at least two of the example reports provided at the bottom of this page. They can help clarify the extent of evidence needed for full credit, as course staff may not be able to answer such specific questions beyond the provided rubrics.
-9. Reflect on the typical scope of pull requests and the course's emphasis on code reading versus writing. For instance, in maintenance tasks, understanding where and how to make changes often proves more challenging than the change itself, which might be minor.
 
-
-[](https://opensource.guide/how-to-contribute/)
+:::{note}
+This project is adapted from the CS course taught by Dr. Wes Weimer and Dr. Xinyu Wang at the University of Michigan. You can find the original project [here](https://web.eecs.umich.edu/~weimerw/2022-481F/hw6.html). To gain an understanding of what a completed project looks like, please review a few example reports from University of Michigan students, available at the bottom of the [page](https://web.eecs.umich.edu/~weimerw/2022-481F/hw6.html).
+:::
