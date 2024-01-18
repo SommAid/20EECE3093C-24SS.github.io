@@ -7,7 +7,7 @@ This lab assignment, commencing on Tuesday, February 6, is designed to facilitat
 Please note that throughout the semester, there will be spot checks to monitor your usage of the tool. Each time you are found not to be using the tool, points will be deducted from your final project grade. To ensure adequate planning and progress tracking, a card for each assignment must be created at least one week prior to its due date.
 
 
-## 1. Create and Configure a GitHub Project for the Course
+1. Create and Configure a GitHub Project for the Course (20 pts)
 
 - **Initialize a new GitHub project** with these specifications:
   - Ensure the project includes a **board**.
@@ -26,22 +26,24 @@ Please note that throughout the semester, there will be spot checks to monitor y
     - Add `loudinb` as a collaborator with **Write** access.
     - Add `rishinal` as a collaborator with **Read** access.
 
-## 2. Managing and Tracking Semester Progress
+2. Managing and Tracking Semester Progress (80 pts)
 
-- **Use the project to track your progress** throughout the course. For each lab assignment, reading assignment, and quiz preparation:
+- **Use the project to track your progress** throughout the course. For each lab assignment, reading assignment, and quiz preparation: (35 pts)
   - Create an item with the appropriate title and description.  
   - Assign it to yourself.
   - Set the correct type and due date.
-- **Progress Tracking**: Move the cards through the columns as you complete the work.
+- **Progress Tracking**: (35 pts)
+  - Move the cards through the columns as you complete the work.
+- **Communication and Assistance**: (10 pts)
+  - For the remainder of the semester, **GitHub Projects will be our primary communication tool** for assignment clarification and help.
+  - If you need help, **@mention `loudinb`** on the relevant card in the project.
+  - I will respond to your requests as soon as possible.
 
-## 3. Communication and Assistance
 
-- For the remainder of the semester, **GitHub Projects will be our primary communication tool** for assignment clarification and help.
-- If you need help, **@mention `loudinb`** on the relevant card in the project.
-- I will respond to your requests as soon as possible.
-
-
+<br>
 
 ## Asynchronous Learning
 
 For an asynchronous learning opportunity, please watch the [Practical GitHub Project Management and Collaboration](https://www.linkedin.com/learning/practical-github-project-management-and-collaboration) video series.
+
+<br>

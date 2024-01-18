@@ -11,7 +11,7 @@ The tentative schedule for the lab assignments is provided below. Please note th
 :widths: 30 70
 :header-rows: 1
 
-*   - Quiz No.
+*   - Lab Assignment.
     - Date
 *   - 1
     - Tuesday, January 23, 2024 at 11:59pm
