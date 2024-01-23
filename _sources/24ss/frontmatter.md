@@ -21,8 +21,8 @@ A minimum of 80% of the quiz content will be based on the assigned reading mater
 
 ## Course Project
 
-Start now, do not wait.
+Start now, do not wait.  The course project is due at the end of the semester **but requires continuous work throughout the semester, and this work must be trackable**.
 
 ## Midterm and Final Exams
 
-In this course, there will be no midterm or final exam. Instead, the comprehensive evaluation of your learning and understanding of Software Engineering will be through the course project divided into two parts. Part 1 of the project is due at the midpoint of the course, while Part 2 is due at the end of the examination period.
+In this course, there will be no midterm or final exam. Instead, the comprehensive evaluation of your learning and understanding of Software Engineering will be through the course project.
