@@ -13,15 +13,18 @@ References to quiz material are subject to change until Thursday, January 25, 20
 
 ### Readings
 
-At least 80% of the quiz points will be awarded for questions derived from the following reading materials:
+At least 80% of the quiz points will be awarded for questions derived from the following reading materials and their associated lecture material (e.g., slides):
 
 * [Chapter 1: What is Software Engineering?](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/ch01.html) from _Software Engineering at Google_.
 * [Chapter 2: How to Work Well on Teams](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/ch02.html) from _Software Engineering at Google_.
 * [Chapter 2: The Mythical Man-Month](https://learning.oreilly.com/library/view/mythical-man-month-the/0201835959/ch02.xhtml) from _The Mythical Man Month_.
+* [Chapter 3: Knowledge Sharing](https://learning.oreilly.com/library/view/software-engineering-at/9781492082781/ch03.html)
+* [What is SDLC (Software Development Life Cycle)?](https://aws.amazon.com/what-is/sdlc/)
+* [The Agile Manifesto](https://agilemanifesto.org/)
 
-### Lectures
+### Lecture
 
-No more than 20% of the quiz points will be awareded for questions derived from the following class lectures:
+No more than 20% of the quiz points will be awareded for questions derived from the following class **lectures** (e.g., in class discussions):
 
 * Lecture 2, Tuesday, January 16, 2024
 * Lecture 3, Thursday, January 18, 2024
