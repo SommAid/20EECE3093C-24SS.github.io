@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="lecture_2_files/libs/clipboard/clipboard.min.js"></script>
-<script src="lecture_2_files/libs/quarto-html/tabby.min.js"></script>
-<script src="lecture_2_files/libs/quarto-html/popper.min.js"></script>
-<script src="lecture_2_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="lecture_2_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="lecture_2_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="lecture_2_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="lecture_2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="lecture_5_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture_5_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture_5_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture_5_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture_5_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture_5_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture_5_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="lecture_5_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>What is Software Engineering?</title>
+  <title>Thursday, January 25, 2024</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="lecture_2_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="lecture_2_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="lecture_5_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="lecture_5_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,12 +29,12 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="lecture_2_files/libs/revealjs/dist/theme/quarto.css">
-  <link rel="stylesheet" href="../styles.css">
-  <link href="lecture_2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="lecture_2_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="lecture_2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="lecture_2_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="lecture_5_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="lecture_5_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="lecture_5_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="lecture_5_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="lecture_5_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -326,91 +326,467 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">What is Software Engineering?</h1>
+  <h1 class="title">Thursday, January 25, 2024</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
+<section id="front-matter" class="slide level2">
+<h2>Front Matter</h2>
+<ul>
+<li>Quiz 1 next Tuesday (January 30th)
+<ul>
+<li>Online @ 12:30 p.m. ~ 30 minutes.</li>
+</ul></li>
+</ul>
+</section>
+<section id="todays-agenda" class="slide level2">
+<h2>Today’s Agenda</h2>
+<p><strong>SDLC Methodologies</strong></p>
+<ul>
+<li>Traditional
+<ul>
+<li>Waterfall Model</li>
+<li>Iterative Model</li>
+<li>Incremental Model</li>
+<li>V-Model (Verification and Validation)</li>
+<li>Spiral Model</li>
+<li>Rapid Application Development (RAD)</li>
+</ul></li>
+<li>Agile Methodologies:
+<ul>
+<li><strong>Kanban</strong></li>
+<li><strong>Scrum</strong></li>
+</ul></li>
+<li><strong>DevOps</strong></li>
+</ul>
+</section>
+<section id="methodology-evolution" class="slide level2">
+<h2>Methodology Evolution</h2>
+<p>Not all methodologies adhere strictly to the linear sequence described by the Software Development Life Cycle.</p>
+<p>Methodologies like Agile and DevOps often take a more dynamic approach that iterating or cycling through these stages in a more integrated and flexible manner, adapting to the specific needs of the project.</p>
+</section>
 <section>
-<section id="lecture-2-what-is-software-engineering" class="title-slide slide level1 center">
-<h1>Lecture 2: What is Software Engineering?</h1>
+<section id="traditional-models" class="title-slide slide level1 center">
+<h1>Traditional Models</h1>
 
 </section>
-<section id="section" class="slide level2 center">
-<h2></h2>
-<p><strong>Software engineering</strong> differs from <strong>programming</strong> in dimensionality: programming is about producing code. Software engineering extends that to include the maintenance of that code for its useful life span.</p>
+<section id="waterfall-model-overview" class="slide level2">
+<h2>Waterfall Model: Overview</h2>
+<p>The <strong>Waterfall Model</strong> is a linear and sequential approach to software development, with distinct and non-overlapping phases.</p>
+<ul>
+<li><strong>Sequential Phases</strong>: Requirements → Design → Implementation → Verification → Maintenance.</li>
+<li><strong>Progress Flows Downwards</strong>: Like a waterfall, each phase flows into the next without iteration.</li>
+</ul>
 </section>
-<section id="section-1" class="slide level2 center">
-<h2></h2>
-<p>There is a factor of at least <strong>100,000 times</strong> between the life spans of short-lived code and long-lived code. It is silly to assume that the same best practices apply universally on both ends of that spectrum.</p>
+<section id="waterfall-model-key-facts" class="slide level2">
+<h2>Waterfall Model: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Small, well-defined projects with stable requirements.</li>
+<li><strong>Predictability</strong>: Clear milestones and structured process.</li>
+<li><strong>Documentation Focused</strong>: Extensive documentation at each phase.</li>
+</ul>
 </section>
-<section id="section-2" class="slide level2 center">
-<h2></h2>
-<p>Software is sustainable when, for the expected life span of the code, we are <strong>capable of responding to changes</strong> in dependencies, technology, or product requirements. We may choose to not change things, but we need to be capable.</p>
+<section id="waterfall-model-challenges" class="slide level2">
+<h2>Waterfall Model: Challenges</h2>
+<ul>
+<li><strong>Inflexibility</strong>: Difficulty accommodating changes after the process has begun.</li>
+<li><strong>Late Issue Identification</strong>: Problems may not surface until the testing or maintenance stages.</li>
+</ul>
 </section>
-<section id="hyrums-law" class="slide level2 center">
-<h2>Hyrum’s Law</h2>
-<p><br> <br></p>
-<blockquote>
-<p><em>“With a sufficient number of users of an API,</em> <em>it does not matter what you promise in the contract:</em> <em>all observable behaviors of your system</em> <em>will be depended on by somebody.”</em></p>
-</blockquote>
+<section id="iterative-model-overview" class="slide level2">
+<h2>Iterative Model: Overview</h2>
+<p><strong>Iterative Development</strong> focuses on gradually refining and expanding a software product through repeated cycles.</p>
+<ul>
+<li><strong>Process</strong>: Begins with basic implementation, evolving through feedback.</li>
+<li><strong>Early Prototypes</strong>: Quick initial versions to understand requirements and solutions.</li>
+</ul>
 </section>
-<section id="section-3" class="slide level2 center">
-<h2></h2>
-<p>Every task your organization has to do repeatedly should be scalable (linear or better) in terms of human input. Policies are a wonderful tool for making process scalable.</p>
+<section id="iterative-model-key-facts" class="slide level2">
+<h2>Iterative Model: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Projects with evolving or unclear requirements.</li>
+<li><strong>Flexibility</strong>: Allows for changes and refinements throughout the development process.</li>
+<li><strong>Early Deliverables</strong>: Early iterations produce working versions of the software for user feedback and testing.</li>
+</ul>
 </section>
-<section id="section-4" class="slide level2 center">
-<h2></h2>
-<p>Process inefficiencies and other software-development tasks tend to scale up slowly. Be careful about boiled-frog problems.</p>
+<section id="iterative-model-challenges" class="slide level2">
+<h2>Iterative Model: Challenges</h2>
+<ul>
+<li><strong>Resource Intensity</strong>: May require more resources over time due to repeated cycles.</li>
+<li><strong>Risk of Over-Iteration</strong>: Prolonged development cycles can lead to scope creep or budget overruns.</li>
+<li><strong>Complexity in Planning</strong>: Requires robust planning to manage the iterative cycles and ensure consistent progress.</li>
+</ul>
 </section>
-<section id="section-5" class="slide level2 center">
-<h2></h2>
-<p>Expertise pays off particularly well when combined with economies of scale.</p>
+<section id="incremental-model-overview" class="slide level2">
+<h2>Incremental Model: Overview</h2>
+<p>The <strong>Incremental Model</strong> is a type of iterative model where the product is developed in small, workable segments.</p>
+<ul>
+<li><strong>Incremental Delivery</strong>: Delivers functionality in portions, adding features over time.</li>
+<li><strong>Multiple Development Cycles</strong>: Each increment represents a slice of the full functionality.</li>
+</ul>
 </section>
-<section id="section-6" class="slide level2 center">
-<h2></h2>
-<p><strong>Because I said so</strong> is a terrible reason to do things.</p>
+<section id="incremental-model-key-facts" class="slide level2">
+<h2>Incremental Model: Key Facts</h2>
+<ul>
+<li><strong>Flexibility in Development</strong>: Accommodates changing requirements and feedback.</li>
+<li><strong>Risk Management</strong>: Early iterations can reveal potential issues for timely resolution.</li>
+</ul>
 </section>
-<section id="section-7" class="slide level2 center">
-<h2></h2>
-<p>Being data driven is a good start, but in reality, most decisions are based on a mix of data, assumption, precedent, and argument. It’s best when objective data makes up the majority of those inputs, but it can rarely be all of them.</p>
+<section id="incremental-model-challenges" class="slide level2">
+<h2>Incremental Model: Challenges</h2>
+<ul>
+<li><strong>Integration Complexity</strong>: As more increments are added, integration can become more complex.</li>
+<li><strong>Planning and Design</strong>: Requires careful planning and design to ensure consistency across increments.</li>
+<li><strong>Potential for Scope Creep</strong>: Continuous additions may lead to expanding project scope beyond initial estimates.</li>
+</ul>
 </section>
-<section id="section-8" class="slide level2 center">
-<h2></h2>
-<p>Being data driven over time implies the need to change directions when the data changes (or when assumptions are dispelled). Mistakes or revised plans are inevitable.</p>
+<section id="v-model-overview" class="slide level2">
+<h2>V-Model: Overview</h2>
+<p>The <strong>V-Model</strong> extends the Waterfall model by adding corresponding testing phases for each development stage.</p>
+<ul>
+<li><strong>Dual Paths</strong>: Each development stage is mirrored by a testing phase.</li>
+<li><strong>Emphasis on Testing</strong>: Integration of development and testing throughout the process.</li>
+</ul>
 </section>
-<section id="beyoncé-rule" class="slide level2">
-<h2>Beyoncé Rule</h2>
-<p>“If you like it, then you shoulda put a CI (Continuous Integration) test on it,” promotes a culture of ownership and responsibility among software development teams, especially when it comes to dependencies on code from other teams.</p>
-<p>Here’s how this rule can facilitate ownership in such scenarios:</p>
-<ol type="1">
-<li><p><strong>Proactive Testing</strong>: By encouraging teams to thoroughly test their code, including the integration points with dependencies from other teams, it ensures that teams are proactive in identifying and resolving potential issues before they escalate. This approach reduces the likelihood of unexpected failures due to external dependencies.</p></li>
-<li><p><strong>Early Detection of Issues</strong>: Continuous Integration (CI) tests run automatically whenever changes are made. This means that if a change in one team’s code adversely affects another team’s code, the issue can be detected immediately. It places the responsibility on the original team to ensure their changes do not break existing functionalities.</p></li>
-<li><p><strong>Encouraging Collaboration</strong>: When each team takes ownership of testing their integrations, it fosters better communication and collaboration between teams. If a team’s update causes a failure in another team’s code, the testing process naturally initiates a dialogue to address and resolve the issue collaboratively.</p></li>
-<li><p><strong>Building a Culture of Accountability</strong>: The rule embeds a mindset of accountability. Teams know that they are responsible not only for their code’s functionality but also for ensuring it integrates seamlessly with other parts of the system. This reduces blame-shifting and promotes a more constructive approach to problem-solving.</p></li>
-<li><p><strong>Continual Monitoring and Improvement</strong>: Continuous Integration allows for ongoing monitoring of the system’s health. Teams are more inclined to continuously improve their code, keeping in mind the broader impact on the system, thus maintaining high standards of code quality and system stability.</p></li>
-<li><p><strong>Reduction in Dependency Risks</strong>: By applying rigorous tests, teams can better understand and manage the risks associated with external dependencies. This knowledge helps in making informed decisions about using and updating those dependencies.</p></li>
-</ol>
+<section id="v-model-key-facts" class="slide level2">
+<h2>V-Model: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Small to medium-sized projects with well-defined requirements.</li>
+<li><strong>Rigorous Testing</strong>: Early and continuous testing phases.</li>
+<li><strong>Structured Approach</strong>: Clear and straightforward methodology.</li>
+</ul>
 </section>
-<section id="whiteboard-markers" class="slide level2 center">
-<h2>Whiteboard Markers</h2>
-<blockquote>
-<p>“In many organizations, whiteboard markers are treated as precious goods. They are tightly controlled and always in short supply….Somewhere along the line &gt; we made an explicit trade-off: it is far more important to optimize for obstacle-free brainstorming than to protect against someone wandering off with a bunch of markers.”</p>
-</blockquote>
+<section id="v-model-challenges" class="slide level2">
+<h2>V-Model: Challenges</h2>
+<ul>
+<li><strong>Inflexibility</strong>: Struggles with requirement changes once development has begun.</li>
+<li><strong>Over-Reliance on Initial Requirements</strong>: Assumes perfect requirement definition at the start.</li>
+</ul>
 </section>
-<section id="section-9" class="slide level2 center">
-<h2></h2>
-<p>Would anyone like to take a QUIZ?</p>
+<section id="spiral-model-overview" class="slide level2">
+<h2>Spiral Model: Overview</h2>
+<p>The <strong>Spiral Model</strong> combines iterative development with the linear sequential model, focusing on early risk assessment.</p>
+<ul>
+<li><strong>Phases</strong>: Objective setting, risk assessment, development, and planning.</li>
+<li><strong>Iterative Approach</strong>: Cycles through these phases repeatedly with increasing detail.</li>
+</ul>
 </section>
-<section id="reminders" class="slide level2">
-<h2>Reminders</h2>
-<ol type="1">
-<li>No class on Tuesday, January 16, 2024.</li>
-<li>Course project teams will need to be formed by Thursday, January 18, 2024.</li>
-<li>Instructions to access O’Reilly books has been posted under <strong>FAQs</strong></li>
-<li>Quizzes will be <strong>in-class</strong>.</li>
-</ol>
+<section id="spiral-model-key-facts" class="slide level2">
+<h2>Spiral Model: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Large, complex, and high-risk projects.</li>
+<li><strong>Flexibility</strong>: Adapts to evolving project requirements.</li>
+<li><strong>Risk Management</strong>: Emphasizes early identification and mitigation of risks.</li>
+</ul>
+</section>
+<section id="spiral-model-challenges" class="slide level2">
+<h2>Spiral Model: Challenges</h2>
+<ul>
+<li><strong>Complexity</strong>: Requires expert management and oversight.</li>
+<li><strong>Resource Intensive</strong>: Potentially higher costs and longer timeframes.</li>
+</ul>
+</section>
+<section id="rad-model-overview" class="slide level2">
+<h2>RAD Model: Overview</h2>
+<p>The <strong>Rapid Application Development (RAD)</strong> model emphasizes quick prototyping and user feedback over strict planning.</p>
+<ul>
+<li><strong>Core Elements</strong>: Prototyping, iterative development, and client feedback.</li>
+<li><strong>Rapid Development</strong>: Quick iterations with a focus on functional software.</li>
+</ul>
+</section>
+<section id="rad-model-key-facts" class="slide level2">
+<h2>RAD Model: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Projects with flexible requirements and tight schedules.</li>
+<li><strong>User-Centric</strong>: Frequent feedback ensures alignment with user needs.</li>
+<li><strong>Adaptability</strong>: Easily accommodates changes during development.</li>
+</ul>
+</section>
+<section id="rad-model-challenges" class="slide level2">
+<h2>RAD Model: Challenges</h2>
+<ul>
+<li><strong>Resource Demands</strong>: Requires skilled teams and significant user involvement.</li>
+<li><strong>Scope Limitation</strong>: Less effective for large-scale projects.</li>
+</ul>
+</section></section>
+<section>
+<section id="agile-methodologies" class="title-slide slide level1 center">
+<h1>Agile Methodologies</h1>
+
+</section>
+<section id="agile-methodologies-1" class="slide level2">
+<h2>Agile Methodologies</h2>
+<p>The Agile movement in software development emerged as a response to the limitations of traditional, rigid project management methods. Agile methods prioritize flexibility, collaboration, and customer satisfaction.</p>
+<h3 id="origins-of-agile">Origins of Agile</h3>
+<ul>
+<li><strong>Origins</strong>: Agile methodologies developed in the early 2000s, as industry leaders sought more adaptable, efficient approaches to software development.</li>
+<li><strong>The Agile Manifesto</strong>: Formulated in February 2001 by 17 software developers at a retreat in Snowbird, Utah. They discussed the need for an alternative to documentation-driven, heavyweight software development processes.</li>
+<li><strong>Manifesto Principles</strong>:
+<ul>
+<li><strong>Individuals and interactions</strong> over processes and tools.</li>
+<li><strong>Working software</strong> over comprehensive documentation.</li>
+<li><strong>Customer collaboration</strong> over contract negotiation.</li>
+<li><strong>Responding to change</strong> over following a plan.</li>
+</ul></li>
+<li><strong>Impact</strong>: The Manifesto profoundly changed the software development landscape, emphasizing adaptability, customer-centricity, and iterative progress. It laid the foundation for various Agile methodologies like Scrum, XP, and Kanban.</li>
+</ul>
+<aside class="notes">
+<p>The Agile Manifesto marked a significant shift in software development, moving away from traditional methods towards approaches that embrace change, collaboration, and the delivery of functional software. Its principles continue to influence Agile practices today.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="extreme-programming-xp-overview" class="slide level2">
+<h2>Extreme Programming (XP): Overview</h2>
+<p>Extreme Programming (XP) is an agile software development methodology focused on enhancing software quality and responsiveness to changing customer requirements.</p>
+<ul>
+<li><strong>Communication, Simplicity, Feedback, Courage, and Respect</strong>: Essential values guiding XP.</li>
+<li><strong>Continuous Feedback</strong>: Integral for project direction and refinement.</li>
+</ul>
+</section>
+<section id="extreme-programming-xp-key-practices" class="slide level2">
+<h2>Extreme Programming (XP): Key Practices</h2>
+<ul>
+<li><strong>Test-Driven Development (TDD)</strong>: Developing tests before the actual code.</li>
+<li><strong>Pair Programming</strong>: Collaborative coding approach with two programmers.</li>
+<li><strong>Continuous Integration</strong>: Regular integration of code into a shared repository.</li>
+</ul>
+</section>
+<section id="extreme-programming-xp-key-facts" class="slide level2">
+<h2>Extreme Programming (XP): Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Projects with volatile requirements.</li>
+<li><strong>Quality Enhancement</strong>: Through rigorous testing and customer feedback.</li>
+<li><strong>Collaborative Environment</strong>: Encourages team interaction and dynamic collaboration.</li>
+</ul>
+</section>
+<section id="extreme-programming-xp-challenges" class="slide level2">
+<h2>Extreme Programming (XP): Challenges</h2>
+<ul>
+<li><strong>High Collaboration Needs</strong>: Demands intensive teamwork and commitment.</li>
+<li><strong>Scalability Issues</strong>: May face challenges in large-scale implementations.</li>
+<li><strong>Experience Dependency</strong>: Relies on experienced team members for effectiveness.</li>
+</ul>
+</section>
+<section id="extreme-programming-xp-best-practices" class="slide level2">
+<h2>Extreme Programming (XP): Best Practices</h2>
+<ul>
+<li><strong>Consistent Refactoring</strong>: Regularly refining the codebase for simplicity.</li>
+<li><strong>Iterative Releases</strong>: Frequent releases to deliver value and obtain feedback.</li>
+<li><strong>Open Workspace Design</strong>: To enhance team communication and cooperation.</li>
+</ul>
+</section>
+<section id="scrum-overview" class="slide level2">
+<h2>Scrum: Overview</h2>
+<p>Scrum is an agile process framework used primarily for managing software development projects, aiming for a flexible and holistic product development strategy.</p>
+<ul>
+<li><strong>Transparency, Inspection, and Adaptation</strong>: Fundamental pillars of Scrum.</li>
+<li><strong>Empirical Process Control</strong>: Based on observation and adaptation.</li>
+</ul>
+</section>
+<section id="scrum-key-roles-and-artifacts" class="slide level2">
+<h2>Scrum: Key Roles and Artifacts</h2>
+<h3 id="roles-and-artifacts">Roles and Artifacts</h3>
+<ul>
+<li><strong>Roles</strong>: Scrum Master, Product Owner, and Development Team.</li>
+<li><strong>Artifacts</strong>: Product Backlog, Sprint Backlog, and Increment (Potentially Shippable Product).</li>
+</ul>
+</section>
+<section id="scrum-key-facts" class="slide level2">
+<h2>Scrum: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Projects that require rapid and flexible response to change.</li>
+<li><strong>Empowers Teams</strong>: Self-organizing teams encourage ownership and continuous improvement.</li>
+<li><strong>Frequent Deliverables</strong>: Regular sprints ensure ongoing progress and feedback.</li>
+</ul>
+</section>
+<section id="scrum-challenges" class="slide level2">
+<h2>Scrum: Challenges</h2>
+<ul>
+<li><strong>Requires Discipline</strong>: To adhere to Scrum principles and practices.</li>
+<li><strong>Scrum Master Dependency</strong>: The effectiveness heavily relies on the Scrum Master’s skills.</li>
+<li><strong>Adaptation Challenges</strong>: Some teams may struggle with the shift from traditional methods.</li>
+</ul>
+</section>
+<section id="scrum-best-practices" class="slide level2">
+<h2>Scrum: Best Practices</h2>
+<ul>
+<li><strong>Daily Stand-ups</strong>: To keep the team aligned and address any impediments.</li>
+<li><strong>Sprint Reviews and Retrospectives</strong>: For continuous process improvement.</li>
+<li><strong>Clear and Collaborative Communication</strong>: Essential for the success of Scrum projects.</li>
+</ul>
+</section>
+<section id="kanban-overview" class="slide level2">
+<h2>Kanban: Overview</h2>
+<p>Kanban is a visual project management approach that enhances decision-making and workflow management in software development through visual aids.</p>
+<ul>
+<li><strong>Visualization of Work</strong>: Employing Kanban boards for progress tracking.</li>
+<li><strong>Limiting Work in Progress (WIP)</strong>: To maintain focus and improve efficiency.</li>
+<li><strong>Continuous Workflow Management</strong>: Regularly assessing and refining the workflow.</li>
+</ul>
+</section>
+<section id="kanban-practices-and-metrics" class="slide level2">
+<h2>Kanban: Practices and Metrics</h2>
+<ul>
+<li><strong>Ongoing Delivery</strong>: Continuous progression of work items through stages.</li>
+<li><strong>Key Performance Indicators</strong>: Such as Lead Time and Cycle Time for efficiency.</li>
+<li><strong>Feedback Loops</strong>: Periodic evaluations to enhance the process.</li>
+</ul>
+</section>
+<section id="kanban-key-facts" class="slide level2">
+<h2>Kanban: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Teams seeking a flexible approach without rigid sprint structures.</li>
+<li><strong>Efficiency Improvement</strong>: By managing and limiting ongoing work.</li>
+<li><strong>Transparency Enhancement</strong>: Through clear visual representation of work status.</li>
+</ul>
+</section>
+<section id="kanban-challenges" class="slide level2">
+<h2>Kanban: Challenges</h2>
+<ul>
+<li><strong>Workflow Focus</strong>: Might overlook broader aspects like long-term planning.</li>
+<li><strong>Discipline in Board Management</strong>: Essential for maintaining an accurate workflow.</li>
+<li><strong>Context Switching Risks</strong>: Potential for inefficiency due to task juggling.</li>
+</ul>
+</section>
+<section id="kanban-best-practices" class="slide level2">
+<h2>Kanban: Best Practices</h2>
+<ul>
+<li><strong>Regular Board Maintenance</strong>: To ensure current workflow representation.</li>
+<li><strong>Swimlane Utilization</strong>: For prioritizing and categorizing tasks.</li>
+<li><strong>Ongoing Process Improvement</strong>: Continuously refining workflow efficiency.</li>
+</ul>
+</section>
+<section id="comparison-of-xp-scrum-and-kanban" class="slide level2">
+<h2>Comparison of XP, Scrum, and Kanban</h2>
+<div style="font-size: 0.7em;">
+<table>
+<colgroup>
+<col style="width: 35%">
+<col style="width: 40%">
+<col style="width: 10%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature / Methodology</th>
+<th>Extreme Programming (XP)</th>
+<th>Scrum</th>
+<th>Kanban</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Primary Focus</strong></td>
+<td>Software development practices</td>
+<td>Process framework for project management</td>
+<td>Workflow management and efficiency</td>
+</tr>
+<tr class="even">
+<td><strong>Iteration Length</strong></td>
+<td>1-2 weeks</td>
+<td>2-4 weeks (Sprints)</td>
+<td>Continuous flow</td>
+</tr>
+<tr class="odd">
+<td><strong>Roles Defined</strong></td>
+<td>Not specifically defined</td>
+<td>Product Owner, Scrum Master, Development Team</td>
+<td>No predefined roles</td>
+</tr>
+<tr class="even">
+<td><strong>Change Management</strong></td>
+<td>Welcomes changes at any time</td>
+<td>Changes are discouraged during Sprints</td>
+<td>Welcomes changes at any time</td>
+</tr>
+<tr class="odd">
+<td><strong>Key Practices</strong></td>
+<td>Pair programming, Test-driven development, Continuous integration</td>
+<td>Daily stand-ups, Sprint reviews, Sprint planning, Retrospectives</td>
+<td>Limit Work in Progress (WIP), Visualize workflow, Focus on flow</td>
+</tr>
+<tr class="even">
+<td><strong>Artifacts</strong></td>
+<td>User stories, Spike solutions</td>
+<td>Product backlog, Sprint backlog, Burndown charts</td>
+<td>Kanban board, Cumulative flow diagram</td>
+</tr>
+<tr class="odd">
+<td><strong>Feedback Loop</strong></td>
+<td>Continuous feedback through testing</td>
+<td>End of Sprint reviews</td>
+<td>Continuous flow enables regular feedback</td>
+</tr>
+<tr class="even">
+<td><strong>Scaling</strong></td>
+<td>Suitable for small, co-located teams</td>
+<td>Scales well with Scrum of Scrums</td>
+<td>Scales well across teams and organizations</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section></section>
+<section>
+<section id="devops" class="title-slide slide level1 center">
+<h1>DevOps</h1>
+
+</section>
+<section id="devops-overview" class="slide level2">
+<h2>DevOps: Overview</h2>
+<p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle and provide continuous delivery with high software quality.</p>
+<ul>
+<li><strong>Collaboration and Communication</strong>: Bridging the gap between development and operations teams.</li>
+<li><strong>Automation and Integration</strong>: Automating repetitive tasks and integrating processes for efficiency.</li>
+</ul>
+</section>
+<section id="devops-key-practices-and-tools" class="slide level2">
+<h2>DevOps: Key Practices and Tools</h2>
+<h3 id="practices-and-tools">Practices and Tools</h3>
+<ul>
+<li><strong>Continuous Integration and Continuous Deployment (CI/CD)</strong>: Streamlining development to deployment processes.</li>
+<li><strong>Infrastructure as Code (IaC)</strong>: Managing and provisioning infrastructure through code.</li>
+<li><strong>Monitoring and Logging</strong>: Continuously monitoring the performance and health of applications.</li>
+</ul>
+</section>
+<section id="devops-key-facts" class="slide level2">
+<h2>DevOps: Key Facts</h2>
+<ul>
+<li><strong>Best Suited For</strong>: Organizations aiming for rapid and reliable software delivery.</li>
+<li><strong>Enhanced Collaboration</strong>: Fosters a culture of shared responsibility and teamwork.</li>
+<li><strong>Increased Efficiency</strong>: Through automation of repetitive tasks and streamlined workflows.</li>
+</ul>
+</section>
+<section id="devops-challenges" class="slide level2">
+<h2>DevOps: Challenges</h2>
+<ul>
+<li><strong>Cultural Shift Required</strong>: Embracing a new mindset and breaking down silos between teams.</li>
+<li><strong>Complexity in Implementation</strong>: Integrating and automating various tools and processes.</li>
+<li><strong>Skillset Diversification</strong>: Requires team members to have a broad range of skills.</li>
+</ul>
+</section>
+<section id="devops-best-practices" class="slide level2">
+<h2>DevOps: Best Practices</h2>
+<ul>
+<li><strong>Emphasize Team Collaboration</strong>: Encouraging open communication and joint responsibility.</li>
+<li><strong>Iterative Approach</strong>: Gradually implementing changes and improvements.</li>
+<li><strong>Focus on Automation</strong>: Automating as much as possible to reduce manual work and errors.</li>
+</ul>
+</section>
+<section id="next-class" class="slide level2">
+<h2>Next Class</h2>
+<p>In the next class we will delve deeper into each approach, discussing its specific methodologies, best practices, and appropriate application contexts.</p>
 <div class="footer footer-default">
 
 </div>
@@ -419,19 +795,19 @@
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="lecture_2_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="lecture_5_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="lecture_2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="lecture_2_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="lecture_2_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="lecture_5_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
